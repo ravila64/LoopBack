@@ -3,7 +3,14 @@ import {juggler} from '@loopback/repository';
 
 const config = {
   name: 'mongodb',
-  connector: 'kv-memory'
+  connector: 'mongodb',
+  url: '',
+  host: '',
+  port: 0,
+  user: '',
+  password: '',
+  database: '',
+  useNewUrlParser: true
 };
 
 // Observe application's life cycle to disconnect the datasource when
